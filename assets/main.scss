@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "Biosphere";
+  src: url("~/assets/fonts/Biosphere.otf") format("opentype");
+}
+@import url("https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Gotham", sans-serif;
+  --font-title: "Biosphere", sans-serif;
+  --cubic-bezier: cubic-bezier(0.8, 0.12, 0.05, 0.88);
+  --color-1: #e5e5e5;
+  --color-2: #1a1a1a;
+  --color-3: #a6136c;
+  --color-4: #fff717;
+  --overlay-dark: #0f1a206f;
+  --overlay-light: #fcf8f24d;
+}
+
+* {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-base;
+    font-weight: 400;
+    background-color: var(--color-3);
+    color: var(--color-1);
+    scrollbar-width: thin;
+    line-height: normal;
+    scrollbar-base-color: var(--color-3);
+    scrollbar-color: var(--color-4) transparent;
+  }
+}
+
+.text-style-1 {
+  font-size: clamp(1.5rem, 2.2vw, 3rem);
+}
+.text-style-2 {
+  font-size: clamp(0.8rem, 1.2vw, 2.5rem);
+}
+.text-style-3 {
+  font-size: clamp(1rem, 1.4vw, 3.2rem);
+}
+.text-style-4 {
+  font-size: clamp(1rem, 2vw, 3.4rem);
+}
+
+.text-style-big {
+  font-size: clamp(1.9rem, 4.5vw, 5rem);
+}
+
+.text-style-bigger {
+  font-size: clamp(6rem, 10vw, 12rem);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-1);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-5);
+  border-radius: 50px;
+  border: transparent;
+}
+
+.nav-item {
+  cursor: pointer;
+  @apply text-c-1;
+  width: fit-content;
+  display: block;
+  text-decoration: none;
+  transition: all 400ms var(--cubic-bezier);
+}
+
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: clamp(0.1rem, 0.2vh, 0.2rem);
+  @apply bg-c-1;
+}
+
+.nav-items:hover > .nav-item {
+  opacity: 0.3;
+}
+
+.nav-items:not(:hover) > .nav-item::after {
+  width: 0%;
+  transition: width 800ms var(--cubic-bezier);
+}
+
+.nav-item:not(:hover) {
+  transition: all 800ms ease;
+}
+
+.nav-items:hover > .nav-item:hover {
+  opacity: 1;
+  transition: all 800ms ease;
+}
+
+.nav-items:hover > .nav-item:hover::after {
+  width: 100%;
+  transition: all 800ms var(--cubic-bezier);
+}
+
+.nav-items:hover > .nav-item:not(:hover)::after {
+  width: 0%;
+  transition: all 800ms var(--cubic-bezier);
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  @apply text-c-1;
+  @apply bg-c-4;
+}
+
+::selection {
+  @apply text-c-1;
+  @apply bg-c-4;
+}
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
