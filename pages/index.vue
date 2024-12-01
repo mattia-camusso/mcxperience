@@ -21,7 +21,6 @@
     </div>
   </div>
   <Footer></Footer>
-  <!--  -->
 </template>
 
 <script lang="ts" setup></script>
