@@ -1,7 +1,7 @@
 <template>
   <Header></Header>
   <div class="m-6 flex flex-col items-center">
-    <img src="../assets/hero.png" class="w-full" alt="" />
+    <img src="/hero.png" class="w-full" alt="" />
     <div class="flex items-center flex-col my-12 gap-6">
       <p class="uppercase text-style-1">presso</p>
       <h2 class="uppercase text-style-bigger traking-wider font-biosphere">
