@@ -19,6 +19,7 @@
       <p class="uppercase text-style-1">stagione 2024/2025</p>
     </div>
   </div>
+  <!--  -->
 </template>
 
 <script lang="ts" setup></script>
