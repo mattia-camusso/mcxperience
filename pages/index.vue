@@ -9,12 +9,17 @@
       </h2>
       <p class="uppercase text-style-1">plan-maison cervinia</p>
     </div>
-    <div class="relative m-12">
+    <div class="relative">
       <img src="../assets/cat.png" alt="" class="" />
-      <img src="../assets/mountain.svg" class="absolute bottom-0 centered" />
+      <img
+        src="../assets/mountain.svg"
+        class="absolute h-10 bottom-0 centered"
+      />
     </div>
     <div class="flex flex-col items-center m-6 gap-6">
-      <h2 class="uppercase text-style-bigger traking-wider font-biosphere">
+      <h2
+        class="uppercase text-center text-style-bigger traking-wider font-biosphere"
+      >
         solo su prenotazione
       </h2>
       <p class="uppercase text-style-1">stagione 2024/2025</p>

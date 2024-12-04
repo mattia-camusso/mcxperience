@@ -9,6 +9,7 @@ export default defineNuxtConfig({
       enabled: true,
     },
   },
+
   app: {
     head: {
       title: "MC Xperience",
@@ -21,18 +22,24 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   alias: {
     "@": resolve(__dirname, "/"),
   },
+
   modules: [],
+
   /*   ui: {
     global: true,
   }, */
   css: ["~/assets/main.scss"],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
+  compatibilityDate: "2024-12-04",
 });
