@@ -15,10 +15,12 @@ export default {
     extend: {
       colors: {
         c: {
-          1: "#e5e5e5",
-          2: "#1a1a1a",
-          3: "#A6136C",
-          4: "#FFF717",
+          1: "#f0f0f0",
+          2: "#222a36",
+          3: "#d53b98",
+          4: "#fff717",
+          5: "#23C5C6",
+          6: "rgba(240, 240, 240, 0.75)",
         },
       },
       screens: {
@@ -28,7 +30,6 @@ export default {
       },
       fontFamily: {
         sans: ["Gotham", ...fontFamily.sans],
-        biosphere: ["Biosphere"],
       },
       letterSpacing: {
         tagline: ".15em",
