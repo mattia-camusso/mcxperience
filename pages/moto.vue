@@ -31,11 +31,13 @@
   <div class="bg-c-5">
     <div class="w-full">
       <div class="flex flex-col items-center gap-12 pl-12 py-20">
-        <h5 class="font-bigger text-center text-c-1 text-style-big-plus">
+        <h5
+          class="font-bigger text-center text-c-1 text-style-big-plus pr-12 lg:pr-0"
+        >
           SILENZIO POTENZA LIBERTA’
         </h5>
         <p
-          class="text-style-3 lg:w-3/4 leading-relaxed text-c-1 italic text-center font-medium"
+          class="text-style-3 lg:w-3/4 leading-relaxed text-c-1 italic text-center font-medium pr-12 lg:pr-0"
         >
           Benvenuti da MCXperience, centro di noleggio moto da cross elettriche
           a Cervinia, dove la passione per l’avventura si incontra con il
@@ -46,7 +48,7 @@
         <div
           class="flex flex-col-reverse lg:flex-row justify-between gap-12 my-12"
         >
-          <div class="flex flex-col gap-6">
+          <div class="flex flex-col gap-6 pr-12 lg:pr-0">
             <h6 class="font-bigger text-c-1 text-style-big">
               ASSISTENZA PROFESSIONALE
             </h6>
