@@ -5,7 +5,9 @@
       <h2 class="text-style-bigger text-balance text-c-6 font-bigger">
         NOLEGGIO SNOWCROSS <span class="text-c-4">ELETTRICHE</span> A CERVINIA
       </h2>
-      <MainButton>PRENOTA ORA</MainButton>
+      <a href="https://mcx-app.vercel.app/">
+        <MainButton>PRENOTA ORA</MainButton>
+      </a>
     </div>
   </div>
   <div class="p-12 flex flex-col lg:flex-row">

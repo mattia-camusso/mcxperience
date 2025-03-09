@@ -5,7 +5,7 @@
       <h2 class="text-style-bigger text-balance text-c-6 font-bigger">
         A CENA COL GATTO DELLE NEVI A <span class="text-c-4">CERVINIA</span>
       </h2>
-      <MainButton>PRENOTA ORA</MainButton>
+      <!-- <MainButton>PRENOTA ORA</MainButton> -->
     </div>
   </div>
   <div class="p-12 flex flex-col lg:flex-row">

@@ -22,7 +22,7 @@
         <img
           class="w-[50vw] lg:w-[25vw] aspect-square"
           src="../assets/home/home1.jpg"
-          alt=""
+          alt="NOLEGGIO MOTO ELETTRICHE CERVINIA"
         />
         <h5 class="font-bigger text-style-big mt-12">NOLEGGIO MOTO</h5>
       </a>
@@ -34,12 +34,13 @@
         <img
           class="w-[50vw] lg:w-[25vw] aspect-square"
           src="../assets/home/home2.png"
-          alt=""
+          alt="CENA GATTO DELLE NEVI CERVINIA"
         />
         <h5 class="font-bigger text-style-big mt-12">CENA IN QUOTA</h5>
       </a>
 
-      <div
+      <a
+        href="https://mcx-app.vercel.app/"
         class="flex flex-col items-center hover:bg-c-6 hover:text-c-2 text-c-1 cursor-pointer transition-all duration-500 p-6 ease-[cubic-bezier(0.8, 0.12, 0.05, 0.88)]"
       >
         <img
@@ -48,7 +49,7 @@
           alt=""
         />
         <h5 class="font-bigger text-style-big mt-12">PRENOTA SUBITO</h5>
-      </div>
+      </a>
     </div>
   </div>
   <Footer color="3" hidden></Footer>
