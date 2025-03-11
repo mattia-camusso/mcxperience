@@ -23,7 +23,7 @@
       </p>
     </div>
     <img
-      src="../assets/gatto/gatto1.png"
+      src="../assets/gatto/gatto4.png"
       class="hidden lg:block relative right-0 lg:-right-12 lg:-bottom-12 w-[75%]"
       alt=""
     />
@@ -65,7 +65,7 @@
               percorsi panoramici nel cuore di Cervinia.
             </p>
           </div>
-          <img src="../assets/gatto/gatto2.png" class="lg:w-[55vw]" alt="" />
+          <img src="../assets/gatto/gatto3.png" class="lg:w-[55vw]" alt="" />
         </div>
       </div>
     </div>
@@ -80,18 +80,9 @@
         COME RAGGIUNGERCI D’ESTATE E D’INVERNO
       </h6>
       <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
-        Raggiungeteci in macchina, con la moto, in bici percorrendo la strada
-        statale n.26 del Colle Piccolo San Bernardo o in escursione a piedi.
-        Scoprite la strada romana, antica strada per le Gallie, che parte dal
-        paese di La Thuile. ll giardino dello Chalet Lo Riondet è un rifugio
-        sereno e riservato, perfetto per i nostri ospiti che cercano un momento
-        di quiete. Qui, accanto a un incantevole laghetto, potete concedervi una
-        pausa rilassante, immersi in un ambiente tranquillo. Avrete la
-        possibilità di ordinare un calice dalla nostra selezione di vini
-        pregiati, gustare un fresco gelato o sorseggiare un cocktail. Inoltre,
-        la nostra champagneria è sempre disponibile per offrirvi un’esperienza
-        rilassante, circondati dalla natura incontaminata e dalle viste
-        mozzafiato del Monte Bianco.
+        Potrai raggiungerci comodamente con la tua auto fino a Breuil-Cervinia.
+        Passato il centro paese arriverai alla partenza della seggiovia Cretaz,
+        Li ci sará il nostro gattto delle nevi pronto ad accoglierti.
       </p>
     </div>
   </div>
@@ -121,7 +112,7 @@
   background-image: url("../assets/gatto/section.png");
   background-size: cover;
   background-position: bottom;
-  height: 120svh;
+  height: 80svh;
   border-image: fill 1 linear-gradient(var(--overlay-dark), var(--overlay-dark));
 }
 

@@ -24,7 +24,7 @@
           src="../assets/home/home1.jpg"
           alt="NOLEGGIO MOTO ELETTRICHE CERVINIA"
         />
-        <h5 class="font-bigger text-style-big mt-12">NOLEGGIO MOTO</h5>
+        <h5 class="font-bigger text-style-1 mt-12">NOLEGGIO SNOWCROSS</h5>
       </a>
 
       <a
@@ -32,11 +32,11 @@
         class="flex flex-col items-center hover:bg-c-6 hover:text-c-2 text-c-1 cursor-pointer transition-all duration-500 p-6 ease-[cubic-bezier(0.8, 0.12, 0.05, 0.88)]"
       >
         <img
-          class="w-[50vw] lg:w-[25vw] aspect-square"
-          src="../assets/home/home2.png"
+          class="w-[50vw] lg:w-[25vw] object-fill aspect-square"
+          src="../assets/home/home4.png"
           alt="CENA GATTO DELLE NEVI CERVINIA"
         />
-        <h5 class="font-bigger text-style-big mt-12">CENA IN QUOTA</h5>
+        <h5 class="font-bigger text-style-1 mt-12">CENA IN QUOTA</h5>
       </a>
 
       <a
@@ -48,7 +48,7 @@
           src="../assets/home/home3.png"
           alt=""
         />
-        <h5 class="font-bigger text-style-big mt-12">PRENOTA SUBITO</h5>
+        <h5 class="font-bigger text-style-1 mt-12">PRENOTA SUBITO</h5>
       </a>
     </div>
   </div>

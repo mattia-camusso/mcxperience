@@ -1,11 +1,11 @@
 <template>
   <div class="hero flex p-12 flex-col items-center">
     <Header></Header>
-    <div class="mt-[30svh] flex items-start flex-col my-12 gap-6">
+    <div class="mt-[0svh] flex items-start flex-col my-12 gap-6">
       <h2 class="text-style-bigger text-balance text-c-6 font-bigger">
         NOLEGGIO SNOWCROSS <span class="text-c-4">ELETTRICHE</span> A CERVINIA
       </h2>
-      <a href="https://mcx-app.vercel.app/">
+      <a class="mt-[20svh]" href="https://mcx-app.vercel.app/">
         <MainButton>PRENOTA ORA</MainButton>
       </a>
     </div>
@@ -25,7 +25,7 @@
       </p>
     </div>
     <img
-      src="../assets/moto/moto1.png"
+      src="../assets/moto/moto3.png"
       class="hidden lg:block relative right-0 lg:-right-12 -bottom-20 w-[50%]"
       alt=""
     />
@@ -41,11 +41,10 @@
         <p
           class="text-style-3 lg:w-3/4 leading-relaxed text-c-1 italic text-center font-medium pr-12 lg:pr-0"
         >
-          Benvenuti da MCXperience, centro di noleggio moto da cross elettriche
-          a Cervinia, dove la passione per l’avventura si incontra con il
-          rispetto per la natura. Con le nostre moto elettriche, puoi esplorare
-          percorsi mozzafiato senza rumore né emissioni, immergendoti
-          completamente nella bellezza delle Alpi valdostane.
+          Benvenuti da mcxperience centro noleggio snowcross elettriche a
+          cervinia! Con le nostre moto potrai godere dell unico tracciato
+          dedicato, ai piedi del Cervino (2600mt), senza rumore né emissioni
+          immergendoti completamente nella bellezza della natura.
         </p>
         <div
           class="flex flex-col-reverse lg:flex-row justify-between gap-12 my-12"
@@ -62,16 +61,18 @@
               PERCORSI MOZZAFIATO
             </h6>
             <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
-              Tecnologia avanzata: moto silenziose, potenti e progettate per
-              affrontare ogni tipo di terreno. Percorsi personalizzati a
-              Cervinia.
+              Prenota direttamente dal sito. Al punto di ritrovo riceverai un
+              sottocasco monouso casco da cross e maschera protettiva. Dopo un
+              brevissimo briefing sul funzionamento delle moto sarai
+              accompagnato al tracciato dove potrai, vivere un esperienza unica
+              nel suo genere.
             </p>
             <h6 class="font-bigger text-c-1 text-style-big mt-6">
-              SOSTENIBILITA’
+              ESPERIENZA PERSONALIZZATA
             </h6>
             <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
-              Guida senza lasciare tracce, rispettando l’ambiente montano tra
-              percorsi panoramici nel cuore di Cervinia.
+              Su richiesta sono disponibili pacchetti personalizzati con
+              possibilità di pernottamento in struttura Pack aziendali, ecc...
             </p>
           </div>
           <img src="../assets/moto/moto2.png" class="lg:w-[55vw]" alt="" />
@@ -89,18 +90,9 @@
         COME RAGGIUNGERCI D’ESTATE E D’INVERNO
       </h6>
       <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
-        Raggiungeteci in macchina, con la moto, in bici percorrendo la strada
-        statale n.26 del Colle Piccolo San Bernardo o in escursione a piedi.
-        Scoprite la strada romana, antica strada per le Gallie, che parte dal
-        paese di La Thuile. ll giardino dello Chalet Lo Riondet è un rifugio
-        sereno e riservato, perfetto per i nostri ospiti che cercano un momento
-        di quiete. Qui, accanto a un incantevole laghetto, potete concedervi una
-        pausa rilassante, immersi in un ambiente tranquillo. Avrete la
-        possibilità di ordinare un calice dalla nostra selezione di vini
-        pregiati, gustare un fresco gelato o sorseggiare un cocktail. Inoltre,
-        la nostra champagneria è sempre disponibile per offrirvi un’esperienza
-        rilassante, circondati dalla natura incontaminata e dalle viste
-        mozzafiato del Monte Bianco.
+        Potrai raggiungerci comodamente con la tua auto fino a Breuil-Cervinia.
+        Passato il centro paese arriverai alla partenza della seggiovia Cretaz,
+        Li ci sará il nostro gattto delle nevi pronto ad accoglierti.
       </p>
     </div>
   </div>
@@ -119,7 +111,7 @@
 }
 
 .hero {
-  background-image: url("../assets/moto/hero.png");
+  background-image: url("../assets/moto/moto4.png");
   background-size: cover;
   background-position: bottom;
   height: 140svh;
@@ -130,7 +122,7 @@
   background-image: url("../assets/moto/section.png");
   background-size: cover;
   background-position: bottom;
-  height: 150svh;
+  height: 100svh;
   border-image: fill 1 linear-gradient(var(--overlay-dark), var(--overlay-dark));
 }
 
