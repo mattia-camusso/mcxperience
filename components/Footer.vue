@@ -8,7 +8,7 @@
   <div class="flex flex-col items-start">
     <div
       :class="`bg-c-${color}`"
-      class="w-full p-8 md:p-12 flex items-center gap-6"
+      class="w-full p-4 md:p-12 flex items-center gap-6"
     >
       <p class="text-style-bigger text-c-1 font-bigger">CONTATTACI</p>
       <img
