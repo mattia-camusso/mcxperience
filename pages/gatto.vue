@@ -49,20 +49,26 @@
           <div class="flex flex-col gap-6">
             <h6 class="font-bigger text-c-1 text-style-big">CENE ROMANTICHE</h6>
             <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
-              Briefing iniziale e consigli tecnici. Casco e protezioni
-              omologate. Assistenza durante il percorso.
-            </p>
-            <h6 class="font-bigger text-c-1 text-style-big mt-6">ESCURSIONI</h6>
-            <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
-              Tecnologia avanzata: moto silenziose, potenti e progettate per
-              affrontare.
+              Un viaggio suggestivo a bordo del gatto delle nevi tra i paesaggi
+              innevati di Cervinia. Raggiungi l'Hotel Lo Stambecco per una cena
+              esclusiva sotto le stelle.
             </p>
             <h6 class="font-bigger text-c-1 text-style-big mt-6">
-              EVENTI PERSONALIZZATI
+              ESPERIENZE IN QUOTA
             </h6>
             <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
-              Guida senza lasciare tracce, rispettando l’ambiente montano tra
-              percorsi panoramici nel cuore di Cervinia.
+              Salite ad alta quota tra paesaggi mozzafiato. Fermati per un
+              brindisi sulla neve e goditi la vista delle cime illuminate dalla
+              luna.
+            </p>
+            <h6 class="font-bigger text-c-1 text-style-big mt-6">
+              APERITIVI AL TRAMONTO E CENE IN STRUTTURA
+            </h6>
+            <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
+              Goditi un aperitivo indimenticabile in alta quota, con vista
+              mozzafiato sulle montagne illuminate dalle ultime luci del giorno.
+              Un'esperienza unica per celebrare momenti speciali presso l'Hotel
+              Lo Stambecco.
             </p>
           </div>
           <img src="../assets/gatto/gatto3.png" class="lg:w-[55vw]" alt="" />
@@ -101,7 +107,7 @@
 }
 
 .hero {
-  background-image: url("../assets/gatto/home.jpeg");
+  background-image: url("../assets/gatto/gatto5.png");
   background-size: cover;
   background-position: bottom;
   height: 140svh;

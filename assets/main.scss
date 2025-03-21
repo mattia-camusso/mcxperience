@@ -268,8 +268,7 @@
   transition: all 800ms var(--cubic-bezier);
 }
 
-::-moz-selection {
-  /* Code for Firefox */
+/* ::-moz-selection {
   @apply text-c-1;
   @apply bg-c-4;
 }
@@ -277,7 +276,7 @@
 ::selection {
   @apply text-c-1;
   @apply bg-c-4;
-}
+} */
 
 .rotate-45 {
   @apply rotate-[45deg];

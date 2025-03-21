@@ -58,7 +58,7 @@
               omologate. Assistenza durante il percorso.
             </p>
             <h6 class="font-bigger text-c-1 text-style-big mt-6">
-              PERCORSI MOZZAFIATO
+              PERCORSO DEDICATO MOZZAFIATO
             </h6>
             <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
               Prenota direttamente dal sito. Al punto di ritrovo riceverai un
@@ -91,8 +91,9 @@
       </h6>
       <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
         Potrai raggiungerci comodamente con la tua auto fino a Breuil-Cervinia.
-        Passato il centro paese arriverai alla partenza della seggiovia Cretaz,
-        Li ci sará il nostro gattto delle nevi pronto ad accoglierti.
+        Da lì in poi dovrai recarti al piazzale delle funivie del Cervino e
+        prendere il primo impianto per arrivare a Plan Maison presso l'Hotel Lo
+        Stambecco.
       </p>
     </div>
   </div>

@@ -8,11 +8,7 @@
   <div class="flex flex-col items-start">
     <div :class="`bg-c-${color}`" class="w-full p-12 flex items-center gap-6">
       <p class="text-style-bigger text-c-1 font-bigger">CONTATTACI</p>
-      <img
-        src="../assets/svg/msg.svg"
-        alt="email mcxperience"
-        class="heio mr-6"
-      />
+      <img src="../assets/svg/msg.svg" alt="email mcxperience" class="heio" />
     </div>
     <div class="m-12 flex flex-col items-start gap-6">
       <a

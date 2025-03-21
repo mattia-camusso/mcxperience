@@ -21,7 +21,7 @@
       >
         <img
           class="w-[50vw] lg:w-[25vw] aspect-square"
-          src="../assets/home/home1.jpg"
+          src="../assets/home/home5.png"
           alt="NOLEGGIO MOTO ELETTRICHE CERVINIA"
         />
         <h5 class="font-bigger text-style-1 mt-12">NOLEGGIO SNOWCROSS</h5>
@@ -33,7 +33,7 @@
       >
         <img
           class="w-[50vw] lg:w-[25vw] object-fill aspect-square"
-          src="../assets/home/home4.png"
+          src="../assets/home/home6.png"
           alt="CENA GATTO DELLE NEVI CERVINIA"
         />
         <h5 class="font-bigger text-style-1 mt-12">CENA IN QUOTA</h5>
