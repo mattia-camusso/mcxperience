@@ -52,7 +52,7 @@
       </a>
     </div>
     <div class="flex items-center justify-center my-6 w-full">
-      <p class="font-medium text-style-1">MCXPERIENCE | P.IVA 11360870155</p>
+      <p class="font-medium text-style-1">MCXPERIENCE | P.IVA 02962160996</p>
     </div>
   </div>
 </template>
