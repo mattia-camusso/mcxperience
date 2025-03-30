@@ -68,14 +68,17 @@
               nel suo genere.
             </p>
             <h6 class="font-bigger text-c-1 text-style-big mt-6">
-              ESPERIENZA PERSONALIZZATA
+              IL TUO MOMENTO SULLA NEVE
             </h6>
             <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
-              Su richiesta sono disponibili pacchetti personalizzati con
-              possibilità di pernottamento in struttura Pack aziendali, ecc...
+              Ogni esperienza con le moto ha una durata di 20 minuti. Un tempo
+              perfetto per immergersi nell’avventura, godersi il percorso e
+              vivere l’emozione della guida sulla neve in totale sicurezza.
             </p>
           </div>
-          <img src="../assets/moto/moto2.png" class="lg:w-[55vw]" alt="" />
+          <video loop autoplay class="lg:w-[55vw]" alt="">
+            <source src="../assets/video.mp4" type="video/mp4" />
+          </video>
         </div>
       </div>
     </div>
@@ -90,10 +93,11 @@
         COME RAGGIUNGERCI D’ESTATE E D’INVERNO
       </h6>
       <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
-        Potrai raggiungerci comodamente con la tua auto fino a Breuil-Cervinia.
-        Da lì in poi dovrai recarti al piazzale delle funivie del Cervino e
+        Puoi raggiungerci comodamente con la tua auto fino a Breuil-Cervinia. Da
+        lì in poi dovrai recarti al piazzale delle funivie del Cervino e
         prendere il primo impianto per arrivare a Plan Maison presso l'Hotel Lo
-        Stambecco.
+        Stambecco. Durante il periodo estivo è possibile raggiungere l'hotel
+        grazie al nostro servizio di navetta incluso nel prezzo del noleggio.
       </p>
     </div>
   </div>

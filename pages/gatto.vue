@@ -44,7 +44,7 @@
           completamente nella bellezza delle Alpi valdostane.
         </p>
         <div
-          class="flex flex-col-reverse lg:flex-row justify-between gap-12 my-12"
+          class="flex flex-col-reverse lg:flex-row justify-between items-center gap-12 my-12"
         >
           <div class="flex flex-col gap-6">
             <h6 class="font-bigger text-c-1 text-style-big">CENE ROMANTICHE</h6>
@@ -71,7 +71,11 @@
               Lo Stambecco.
             </p>
           </div>
-          <img src="../assets/gatto/gatto3.png" class="lg:w-[55vw]" alt="" />
+          <img
+            src="../assets/gatto/gatto3.png"
+            class="lg:max-h-[32rem] lg:w-[55vw]"
+            alt=""
+          />
         </div>
       </div>
     </div>
@@ -88,7 +92,9 @@
       <p class="text-style-3 text-c-1 italic font-medium leading-relaxed">
         Potrai raggiungerci comodamente con la tua auto fino a Breuil-Cervinia.
         Passato il centro paese arriverai alla partenza della seggiovia Cretaz,
-        Li ci sará il nostro gattto delle nevi pronto ad accoglierti.
+        li ci sará il nostro gattto delle nevi pronto ad accoglierti. Durante il
+        periodo estivo è possibile raggiungere l'hotel grazie al nostro servizio
+        di navetta incluso nel prezzo del servizio.
       </p>
     </div>
   </div>
@@ -118,7 +124,7 @@
   background-image: url("../assets/gatto/section.png");
   background-size: cover;
   background-position: bottom;
-  height: 80svh;
+  height: 70svh;
   border-image: fill 1 linear-gradient(var(--overlay-dark), var(--overlay-dark));
 }
 
@@ -128,7 +134,7 @@
   }
 
   .section {
-    height: 80svh;
+    height: 60svh;
   }
 }
 @media screen and (max-width: 640px) {
@@ -136,7 +142,7 @@
     height: 90svh;
   }
   .section {
-    height: 100svh;
+    height: 80svh;
   }
 }
 </style>
